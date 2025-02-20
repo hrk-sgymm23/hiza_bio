@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "./header";
+import Header from "./components/header";
 import Content from "./content";
-import Footer from "./footer";
+import Footer from "./components/footer";
 
 const Page = async () => {
   return (
