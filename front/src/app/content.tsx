@@ -67,7 +67,8 @@ const Content = async () => {
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-2">Blog</h2>
               <p className="leading-relaxed text-base">Occasional updates.</p>
-              <Link href="/introduction">
+              {/* TODO: リンク差し替える */}
+              <Link href="https://cozycozy.blog/">
                 <span className="mt-3 text-indigo-500 inline-flex items-center cursor-pointer">
                   Learn More
                   <svg
