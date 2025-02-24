@@ -39,7 +39,7 @@ const Content = async () => {
             <Image src='/images/biography.png' alt="BioGraphy" className="shadow-2xl sm:w-32 sm:h-32 rounded object-cover" width={200} height={200} />
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">BioGraphy</h2>
+              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">Biography</h2>
               <p className="leading-relaxed text-base">Briefly describe my work history.</p>
               <Link href="/biography">
                 <span className="mt-3 text-indigo-500 inline-flex items-center cursor-pointer">
