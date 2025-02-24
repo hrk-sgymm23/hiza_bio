@@ -6,7 +6,7 @@ const Content = async () => {
   return (
     <>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-10 mx-auto">
           {/* 一段目 */}
           <div className="flex items-center lg:w-3/5 mx-auto border-b pb-12 mb-12 border-gray-200 sm:flex-row flex-col">
             <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-20 inline-flex items-center justify-center rounded-full flex-shrink-0">
