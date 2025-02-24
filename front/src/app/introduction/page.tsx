@@ -12,8 +12,8 @@ const Introduction = async () => {
           <div className="lg:w-4/6 mx-auto">
               <div className="flex flex-col sm:flex-row mt-10">
                 <div className="sm:w-1/3 text-center sm:pr-8 sm:pl-8 sm:py-8">
-                    <div className="relative sm:w-32 sm:h-32 h-20 w-20 sm:mr-20 inline-flex rounded-full flex-shrink-0">
-                        <Image src='/images/introduction.png' alt="Introduction" className="m-4 justify-center items-center shadow-2xl sm:w-32 sm:h-32 rounded object-cover" width={200} height={200} />
+                    <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-20 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                      <Image src='/images/introduction.png' alt="Introduction" className="shadow-2xl sm:w-32 sm:h-32 rounded object-cover" width={200} height={200} />
                     </div>
                     <div className="flex flex-col items-center text-center justify-center">
                       <h2 className="font-medium title-font mt-4 mr-4 ml-4 text-gray-900 text-lg">Haruki Sugiyama</h2>
