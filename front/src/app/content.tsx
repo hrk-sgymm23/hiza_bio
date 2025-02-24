@@ -14,7 +14,9 @@ const Content = async () => {
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-2">Introduction</h2>
-              <p className="leading-relaxed text-base">Briefly describe your personal life and hobbies.</p>
+              <p className="leading-relaxed text-base">
+                Brief description of personal life and hobbies.
+              </p>
               <Link href="/introduction">
                 <span className="mt-3 text-indigo-500 inline-flex items-center cursor-pointer">
                   Learn More
@@ -40,7 +42,9 @@ const Content = async () => {
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-2">Biography</h2>
-              <p className="leading-relaxed text-base">Briefly describe my work history.</p>
+              <p className="leading-relaxed text-base">
+                Brief description of my work history.
+              </p>
               <Link href="/biography">
                 <span className="mt-3 text-indigo-500 inline-flex items-center cursor-pointer">
                   Learn More
